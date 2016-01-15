@@ -41,3 +41,13 @@ a#link_to_top:hover, a#link_to_top:focus{
   /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
   opacity: .5;
 }
+
+@media only screen and (max-width: 500px) {
+    ul#to_top {
+      margin-right: 0px;
+      margin-bottom: 100px;
+    }
+    .scroll-top {
+      font-size: 14px;
+    }
+}
