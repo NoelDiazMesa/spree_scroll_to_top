@@ -42,7 +42,7 @@ a#link_to_top:hover, a#link_to_top:focus{
   opacity: .5;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 991px) {
     ul#to_top {
       margin-right: 0px;
       margin-bottom: 100px;
